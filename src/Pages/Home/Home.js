@@ -30,7 +30,7 @@ const Home = () => {
                     <a href='https://twitter.com/zahidhasan125'><FaTwitter className='text-4xl' /></a>
                 </motion.div>
                 <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className='h-16 border-2 rounded-md flex justify-center items-center px-2'>
-                    <a href='https://drive.google.com/file/d/1MWdQ4Vu0S7QjyGT3dDx5eHhPf9Xf2Dvo/view?usp=sharing' className='flex font-bold items-center'>RESUME<FaCloudDownloadAlt className='text-4xl pl-2' /></a>
+                    <a href='https://drive.google.com/uc?export=download&id=1MWdQ4Vu0S7QjyGT3dDx5eHhPf9Xf2Dvo' className='flex font-bold items-center'>RESUME<FaCloudDownloadAlt className='text-4xl pl-2' /></a>
                 </motion.div>
             </div>
         </div>
