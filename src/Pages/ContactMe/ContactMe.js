@@ -11,9 +11,10 @@ const ContactMe = () => {
     //     toast.success('Thanks for contacting with me!')
     // }
     return (
-        <div className="hero">
-            <div className="hero-content flex-col lg:flex-row-reverse">
+        <div id='contact' className="hero">
+            <div className="hero-content flex-col lg:flex-row-reverse w-full">
                 <div className="card flex-shrink-0 w-full shadow-2xl bg-base-100">
+                    <h3 className='text-4xl text-center pt-4'>Feel Free to Contact With Me</h3>
                     <form action="https://formsubmit.co/ec800897fbc462f27d271361f47927eb" method="POST" className="card-body">
                         <div className="form-control">
                             <label className="label">
@@ -31,7 +32,7 @@ const ContactMe = () => {
                             <label className="label">
                                 <span className="label-text">Message</span>
                             </label>
-                            <textarea name='message' className="textarea textarea-bordered" placeholder="Your message"></textarea>
+                            <textarea name='message' className="textarea textarea-bordered h-28" placeholder="Your message"></textarea>
                         </div>
                         <div className="form-control mt-6">
                             <button className="btn bg-sky-600" type='submit'>Send</button>

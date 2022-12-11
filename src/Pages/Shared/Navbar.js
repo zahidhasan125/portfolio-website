@@ -1,18 +1,55 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+
+    const userTheme = localStorage.getItem("theme")
+    const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+    const [isDark, setIsDark] = useState(userTheme);
+    const themeCheck = () => {
+        if (userTheme === "dark" || (!userTheme && systemTheme)) {
+            document.documentElement.classList.add("dark");
+            return;
+        }
+    }
+
+    const themeSwitch = () => {
+        if (document.documentElement.classList.contains("dark")) {
+            document.documentElement.classList.remove("dark");
+            localStorage.setItem("theme", "light")
+            return;
+        }
+        document.documentElement.classList.add("dark");
+        localStorage.setItem("theme", "dark");
+    }
+
+    const handleDarkMode = () => {
+        setIsDark(!isDark)
+        console.log(isDark);
+        themeSwitch();
+    }
+    themeCheck();
+
     const menuItems = <>
         <li><Link to='/'>Home</Link></li>
+        <li><Link to='/about'>About Me</Link></li>
         <li><Link to='/skills'>Skills</Link></li>
         <li><Link to='/projects'>Projects</Link></li>
         <li><Link to='/'>Experience</Link></li>
+        <li><Link to='/blog'>Blog</Link></li>
         <li><Link to='/contact'>Contact Me</Link></li>
+        {/* <div className="form-control">
+            <label className="label cursor-pointer">
+                <span className="label-text text-white pr-2">Dark</span>
+                <input onClick={handleDarkMode} type="checkbox" className="toggle toggle-sm" defaultChecked={isDark==='dark' ? 'false' : 'true'} />
+            </label>
+        </div> */}
     </>
     return (
         <div className="navbar bg-sky-600 rounded-lg text-white justify-between">
             <div className="navbar-start w-full justify-between">
-                <a href='/' className="btn btn-ghost normal-case text-xl">Portfolio</a>
+                <Link to='/' className="btn btn-ghost normal-case text-xl">Portfolio</Link>
                 <div className="dropdown dropdown-end">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
