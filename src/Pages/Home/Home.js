@@ -10,11 +10,11 @@ import ContactMe from '../ContactMe/ContactMe';
 
 const Home = () => {
     return (
-        <div>
+        <div className='max-w-screen-xl mx-auto'>
             <div id='home' className='my-12 flex flex-col justify-center items-center'>
                 <PhotoProvider>
                     <div className="avatar mb-4 cursor-pointer">
-                        <div className="w-36 rounded-full ring ring-sky-600 ring-offset-base-100 ring-offset-2">
+                        <div className="w-36 rounded-full ring ring-sky-800 ring-offset-base-100 ring-offset-2">
                             <PhotoView src={image}>
                                 <img src={image} alt='' />
                             </PhotoView>
