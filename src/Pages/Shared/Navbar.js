@@ -47,7 +47,7 @@ const Navbar = () => {
         </div> */}
     </>
     return (
-        <div className="navbar bg-sky-800 rounded-lg text-white justify-between">
+        <div className="navbar bg-sky-800 text-white justify-between sticky top-0 z-40">
             <div className="navbar-start w-full justify-between">
                 <Link to='/' className="btn btn-ghost normal-case text-xl">MD. ZAHID HASAN</Link>
                 <div className="dropdown dropdown-end">

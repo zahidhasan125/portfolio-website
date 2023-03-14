@@ -10,7 +10,7 @@ const ProjectDetails = () => {
     const { name, img, about, details, screenshots, live, code } = selectedProject;
 
     return (
-        <div className='my-12'>
+        <div className='mb-12'>
             <div className="hero min-h-screen" style={{ backgroundImage: `url(${img})` }}>
                 <div className="hero-overlay bg-opacity-90"></div>
                 <div className="hero-content text-center text-neutral-content">

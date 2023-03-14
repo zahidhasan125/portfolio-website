@@ -3,7 +3,13 @@
         "id": 1,
         "name": "FareBD",
         "img": "https://i.ibb.co/Xj49qhP/Screenshot-at-2023-03-13-11-35-18.png",
-        "screenshots": ["https://i.ibb.co/Xj49qhP/Screenshot-at-2023-03-13-11-35-18.png", "https://i.ibb.co/vd7HfTr/Screenshot-at-2023-03-13-11-35-38.png", "https://i.ibb.co/mt0xMJz/Screenshot-at-2023-03-13-11-38-08.png", "https://i.ibb.co/Kyz4m6b/Screenshot-at-2023-03-13-11-37-16.png", "https://i.ibb.co/DLyJt7B/Screenshot-at-2023-03-13-11-36-42.png"],
+        "screenshots": [
+            "https://i.ibb.co/Xj49qhP/Screenshot-at-2023-03-13-11-35-18.png",
+            "https://i.ibb.co/vd7HfTr/Screenshot-at-2023-03-13-11-35-38.png",
+            "https://i.ibb.co/mt0xMJz/Screenshot-at-2023-03-13-11-38-08.png",
+            "https://i.ibb.co/Kyz4m6b/Screenshot-at-2023-03-13-11-37-16.png",
+            "https://i.ibb.co/DLyJt7B/Screenshot-at-2023-03-13-11-36-42.png"
+        ],
         "about": "Home sale and rental website Where the house owner can sell the house and pay the rent, Tenant can buy house can take rent. Functionality can be used in a variety of ways.",
         "details": "",
         "live": "https://farebd-9.web.app",
@@ -11,13 +17,18 @@
             "client": "https://github.com/SaifullaJubair/FareBD",
             "server": "https://github.com/SaifullaJubair/Server-FareBD"
         }
-
     },
     {
         "id": 2,
         "name": "Power Tools Buy Sell",
-        "img": "https://i.ibb.co/cY2qDxD/ss1.png",
-        "screenshots": ["https://i.ibb.co/cY2qDxD/ss1.png", "https://i.ibb.co/5XQJbzD/ss2.png", "https://i.ibb.co/3zsjTKj/ss3.png"],
+        "img": "https://i.ibb.co/0DMdfc4/Screenshot-at-2023-03-14-13-18-49.png",
+        "screenshots": [
+            "https://i.ibb.co/Pgb3yvg/Screenshot-at-2023-03-14-13-18-59.png",
+            "https://i.ibb.co/Q9RkZnJ/Screenshot-at-2023-03-14-13-19-04.png",
+            "https://i.ibb.co/bmD2RGG/Screenshot-at-2023-03-14-13-19-55.png",
+            "https://i.ibb.co/R6zNLh4/Screenshot-at-2023-03-14-13-20-56.png",
+            "https://i.ibb.co/cCpMDbH/Screenshot-at-2023-03-14-14-00-45.png"
+        ],
         "about": "A reselling app for used products, Admin, seller & buyer have dashboard of different authorization.",
         "details": "",
         "live": "https://my-power-tools-buy-sell.web.app",
@@ -25,13 +36,16 @@
             "client": "https://github.com/zahidhasan125/a12-power-tools-buy-sell-client",
             "server": "https://github.com/zahidhasan125/a12-power-tools-buy-sell-server"
         }
-
-    },    
+    },
     {
         "id": 3,
         "name": "PHP-DEV",
         "img": "https://i.ibb.co/F5FMLhM/php-dev.png",
-        "screenshots": ["https://i.ibb.co/Cv0B0Zn/ss1.png","https://i.ibb.co/xgsyLdz/ss2.png","https://i.ibb.co/HxfB9bW/ss3.png"],
+        "screenshots": [
+            "https://i.ibb.co/Cv0B0Zn/ss1.png",
+            "https://i.ibb.co/xgsyLdz/ss2.png",
+            "https://i.ibb.co/HxfB9bW/ss3.png"
+        ],
         "about": "A learning app, user login, registration, email verification & password reset integrated with firebase.",
         "details": "",
         "live": "https://php-dev-auth.web.app",
@@ -39,13 +53,16 @@
             "client": "https://github.com/zahidhasan125/php-dev-learning-platform-client",
             "server": "https://github.com/zahidhasan125/php-dev-learning-platform-server"
         }
-
     },
     {
         "id": 4,
         "name": "FIT WITH ME",
         "img": "https://i.ibb.co/xLYM5Fh/fit-with-me.png",
-        "screenshots": ["https://i.ibb.co/tXGsY3n/ss1.png","https://i.ibb.co/6BRcCS3/ss2.png","https://i.ibb.co/5GbDb7R/ss3.png"],
+        "screenshots": [
+            "https://i.ibb.co/tXGsY3n/ss1.png",
+            "https://i.ibb.co/6BRcCS3/ss2.png",
+            "https://i.ibb.co/5GbDb7R/ss3.png"
+        ],
         "about": "A service review app. Responsive on mobile & desktop devices, Real user can post review on services. User login, registration, email verification & password reset integrated with firebase. Reviews can be update or delete by the user from Database.",
         "details": "",
         "live": "https://service-review-auth.web.app",
@@ -53,32 +70,37 @@
             "client": "https://github.com/zahidhasan125/fit-with-me-service-review-client",
             "server": "https://github.com/zahidhasan125/fit-with-me-service-review-server"
         }
-
     },
     {
         "id": 5,
         "name": "Quiz Crackers",
         "img": "https://i.ibb.co/Hh9WkKM/quiz-crackers.png",
-        "screenshots": ["https://i.ibb.co/By2FPPg/ss1.png","https://i.ibb.co/vZn9N1T/ss2.png","https://i.ibb.co/r055xS0/ss3.png"],
+        "screenshots": [
+            "https://i.ibb.co/By2FPPg/ss1.png",
+            "https://i.ibb.co/vZn9N1T/ss2.png",
+            "https://i.ibb.co/r055xS0/ss3.png"
+        ],
         "about": "Apps to take a test or quiz on coding. Flowbite components used for creating the UI.Context API used, React hot toast used for showing if the result is right or wrong. Responsive UI for mobile, tablet & desktop devices.",
         "details": "",
         "live": "https://symphonious-bombolone-7c47ee.netlify.app",
         "code": {
             "client": "https://github.com/zahidhasan125/quiz-crackers-assignment"
         }
-
     },
     {
         "id": 6,
         "name": "My Portfolio",
         "img": "https://i.ibb.co/C8DgqXZ/portfolio.png",
-        "screenshots": ["https://i.ibb.co/3cmtCyz/ss1.png","https://i.ibb.co/xGj7ygw/ss2.png","https://i.ibb.co/1qmfBRb/ss3.png"],
+        "screenshots": [
+            "https://i.ibb.co/3cmtCyz/ss1.png",
+            "https://i.ibb.co/xGj7ygw/ss2.png",
+            "https://i.ibb.co/1qmfBRb/ss3.png"
+        ],
         "about": "This is created with react, daisyUi, tailwindCss and for the first time I used Framer motion. It was really fun.",
         "details": "",
         "live": "https://mdzahidhasan-portfolio.web.app",
         "code": {
             "client": "https://github.com/zahidhasan125/portfolio-website"
         }
-
     }
 ]
